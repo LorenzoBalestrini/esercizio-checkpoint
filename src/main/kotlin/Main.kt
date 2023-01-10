@@ -44,7 +44,7 @@ fun main(){
     interi.list.filter { it -> it < 12 }.forEach { it -> println(it) }
     println("---------------")
     println("Filtered list of Float:")
-    virgola.list.filter { it -> it >= 9.1 || it < 7.2 }.forEach { it -> println(it) }
+    virgola.list.filter { it -> it >= 9.1}.forEach { it -> println(it) }
     println("---------------")
 
     println("List of Int transformed to String:")
